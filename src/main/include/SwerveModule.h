@@ -58,7 +58,7 @@ private:
    rev::CANSparkMax m_turningMotor;
 
    //   frc::Encoder m_driveEncoder;
-   rev::SparkMaxRelativeEncoder m_driveEncoder;
+   rev::SparkRelativeEncoder m_driveEncoder;
    frc::AnalogInput m_turningEncoder;
    int m_turningEncoderOffset;
 

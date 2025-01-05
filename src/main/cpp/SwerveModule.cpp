@@ -83,7 +83,7 @@ void MotorInitSpark(rev::CANSparkMax &m_motor)
    m_motor.SetSmartCurrentLimit(80, 10, 5000);
 #endif
    m_motor.GetForwardLimitSwitch(
-              rev::SparkMaxLimitSwitch::Type::kNormallyOpen)
+              rev::SparkLimitSwitch::Type::kNormallyOpen)
        .EnableLimitSwitch(false);
 
    // Config 100% motor output to 12.0V
